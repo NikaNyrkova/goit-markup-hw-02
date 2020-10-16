@@ -6,7 +6,6 @@
   --white: #ffffff;
   --dark-bg: #2f303a;
   --light-bg: #e5e5e5;
-  --team-bg: #f5f4fa;
 }
 
 body {
@@ -53,65 +52,39 @@ body {
   letter-spacing: 0.02em;
 }
 
-.main-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+.btn-filtr {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white);
+  color: var(--title-color);
 }
 
-.btn {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+.btn-filtr:hover,
+.btn-filtr:focus {
   color: var(--white);
   background-color: var(--accent-color);
 }
 
-.section-hero {
-  background-color: var(--dark-bg);
+.link-project {
+  text-decoration: none;
+  color: var(--main-text-color);
 }
 
-.title-plus {
+.title-projects {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--title-color);
 }
 
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-
-.team-name {
-  font-weight: 500;
+.description-projects {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.19;
-  color: var(--title-color);
-}
-
-.team-profession {
-  font-size: 16px;
-  line-height: 1.19;
-}
-
-.section-team {
-  background-color: var(--team-bg);
+  line-height: 1.88;
+  color: var(--main-text-color);
 }
 
 .address {
