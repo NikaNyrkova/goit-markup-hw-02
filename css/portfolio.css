@@ -66,6 +66,9 @@ body {
   color: var(--white);
   background-color: var(--accent-color);
 }
+.btn-filtr {
+  cursor: pointer;
+}
 
 .link-project {
   text-decoration: none;
