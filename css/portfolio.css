@@ -40,6 +40,11 @@ body {
   font-style: normal;
 }
 
+.link-header {
+  font-weight: 500;
+  line-height: 1.14;
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -50,6 +55,11 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.list-btn-filtr {
+  list-style-type: none;
 }
 
 .btn-filtr {
@@ -68,6 +78,10 @@ body {
 }
 .btn-filtr {
   cursor: pointer;
+}
+
+.list-link-projects {
+  list-style-type: none;
 }
 
 .link-project {

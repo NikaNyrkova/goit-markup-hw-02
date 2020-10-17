@@ -41,6 +41,11 @@ body {
   font-style: normal;
 }
 
+.link-header {
+  font-weight: 500;
+  line-height: 1.14;
+}
+
 .link:hover,
 .link:focus {
   color: var(--accent-color);
@@ -51,6 +56,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  list-style-type: none;
 }
 
 .main-title {
@@ -81,6 +87,10 @@ body {
   background-color: var(--dark-bg);
 }
 
+.list-plus {
+  list-style-type: none;
+}
+
 .title-plus {
   font-weight: 700;
   font-size: 14px;
@@ -96,6 +106,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+}
+
+.list-section-title {
+  list-style-type: none;
+}
+
+.team {
+  list-style-type: none;
 }
 
 .team-name {
